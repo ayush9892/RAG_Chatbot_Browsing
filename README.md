@@ -18,7 +18,8 @@ This project implements a Retrieval Augmented Generation (RAG) chatbot that inte
 
 The system diagram below outlines the RAG process:
 
-![image](https://github.com/user-attachments/assets/0e5a4151-5b2e-4cf1-9678-1b1eecbfeec1)
+![image](https://github.com/user-attachments/assets/0bb07a3c-a025-4a3b-a8dc-c8e4b58294ea)
+
 
 ---
 
@@ -39,7 +40,8 @@ The system diagram below outlines the RAG process:
 1. **Azure Resources**:
    - Azure OpenAI resource with a deployed GPT model and text_embedded model.
    - Azure Cognitive Search resource with a properly configured search index [Upload Book.xlsx file in blob storage while Importing and vectorizing data].
-     ![image](https://github.com/user-attachments/assets/1e081722-08bd-461d-b990-fc7ef5aa4e04)
+     ![image](https://github.com/user-attachments/assets/dcdbbd39-dd24-413f-85ca-f18c1c430df4)
+
      
 
 2. **Development Tools**:
@@ -98,6 +100,13 @@ The API returns a JSON response containing the relevant URL or answer:
     }
 }
 ```
+
+## Test Deployed function
+[Test Link](https://auto-browsing-llm.azurewebsites.net/api/rag_chatbot_aisearch?code=K6L20I5_x6NXcs63ge9a0ECOscAJp-RAQsj6D8nBwtEBAzFuJunorg%3D%3D)
+
+Use this link in Postman to test:
+![image](https://github.com/user-attachments/assets/df62dbd2-8dd9-4abb-bb48-c9e1acb710cc)
+
 
 ## Requirements:
 ### Platforms
