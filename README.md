@@ -101,10 +101,12 @@ The API returns a JSON response containing the relevant URL or answer:
 }
 ```
 
-## Test Deployed function
-[Test Link](https://auto-browsing-llm.azurewebsites.net/api/rag_chatbot_aisearch?code=K6L20I5_x6NXcs63ge9a0ECOscAJp-RAQsj6D8nBwtEBAzFuJunorg%3D%3D)
+## Hands-on
+![image](https://github.com/user-attachments/assets/9a7eabfd-cbde-430f-a901-b9584ca786aa)
 
-Use this link in Postman to test:
+### [Deployed function URL](https://auto-browsing-llm.azurewebsites.net/api/rag_chatbot_aisearch?code=K6L20I5_x6NXcs63ge9a0ECOscAJp-RAQsj6D8nBwtEBAzFuJunorg%3D%3D)
+
+Use this link in Postman application, for hands-on:
 ![image](https://github.com/user-attachments/assets/df62dbd2-8dd9-4abb-bb48-c9e1acb710cc)
 
 
